@@ -1,0 +1,106 @@
+body {
+    background-color: #EF525A;
+    color: #FFEFEF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+    .container {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1000px) / 2 );
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+        .banner {
+            display: inline-block;
+            width: 100%;
+            /* background-color: black; */
+        }
+            .top-links {
+                display: inline-block;
+                float: left;
+                width: 100%;
+            }
+                .link {
+                    display: inline-block;
+                    float: left;
+                    text-decoration: none;
+                    color: #FFEFEF;
+                    margin-right: 20px;
+                    margin-top: 40px;
+                    padding: 10px;
+                }
+                .link:first-of-type {
+                    float: left;
+                    font-size: 40px;
+                    font-weight: 800;
+                    width: 35%;
+                    margin-top: 20px;
+                    margin-left: 5%;
+                    padding: 10px;
+                }
+                .logo-icon {
+                    margin-right: 10px;
+                    margin-top: 40px;
+                    width: 20px;
+                }
+                header > nav > a > img.Instagram {
+                    width: 20px;
+                    object-fit: contain;
+                }
+                header > nav > a > img.Twitter {
+                    width: 20px;
+                    object-fit: contain;
+                }
+                header > nav > a > img.Dribble {
+                    width: 20px;
+                    object-fit: contain;
+                }
+            .page-title {
+                display: inline-block;
+                float: left;
+                margin-left: calc((100% - 950px) / 2 );
+                text-align: center;
+                margin-top: 220px;
+                font-size: 70px;
+                text-transform: capitalize;
+            }
+            .footer {
+                display: inline-block;
+                float: left;
+                background-color: black;
+            }
+            .legal {
+                display: inline-block;
+                float: left;
+                margin: 0;
+                font-size: 10px;
+                text-align: center;
+                width: 950px;
+                margin-left: calc((100% - 950px) / 2);
+                }
+                .text {
+                    display: inline-block;
+                    float: left;
+                    text-align: left;
+                    font-size: 16px;
+                    margin-top: 260px;
+                }
+                .travolta {
+                    display: inline-block;
+                    float: left;
+                    object-fit: contain;
+                    width: 350px;
+                }
+                    .phone {
+                        text-decoration: none;
+                        color: #FFEFEF;
+                    }
+                main > p > a {
+                    display: inline-block;
+                    float: right;
+                    text-decoration: none;
+                    color: #FFEFEF;
+                    width: 0; 
+                    /* Kodel p su a viduje nesicentruoja normaliai? a atsiskiria, ar px ar % nustatyti ju ploti? ar jiems reikia div? */
+                    }
+ 
